@@ -1,4 +1,4 @@
-package com.masakorelab.jokelibrary;
+package com.udacity.gradle.builditbigger.paid;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -6,17 +6,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.udacity.gradle.builditbigger.R;
+
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class PaidActivityFragment extends Fragment {
 
-  public MainActivityFragment() {
+  public PaidActivityFragment() {
   }
 
   @Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
                            Bundle savedInstanceState) {
-    return inflater.inflate(R.layout.fragment_jokelib, container, false);
+    return inflater.inflate(R.layout.fragment_paid, container, false);
   }
 }
